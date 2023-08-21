@@ -1,0 +1,36 @@
+.p-footer {
+  position: relative;
+  border-top: 2px solid #333333;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  background-color: #FFFFFF;
+}
+
+@media screen and (min-width: 1126px) {
+  /* pc用スタイル */
+  .p-footer__company {
+    padding: 30px 5% 30px 0px;
+  }
+}
+
+@media screen and (min-width: 796px) and (max-width: 1125px) {
+  /* pc用スタイル */
+  .p-footer__company {
+    padding: 30px 5% 30px 0px;
+  }
+}
+
+@media screen and (max-width: 795px) {
+  /* sp用スタイル */
+  .p-footer__company {
+    padding: 30px 5% 30px 0px;
+  }
+}
+
+@media screen and (min-width: 375px) and (max-width: 400px) {
+  /* sp用スタイル */
+  .p-footer__company {
+    padding: 30px 5% 30px 0px;
+  }
+}

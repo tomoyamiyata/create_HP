@@ -1,0 +1,30 @@
+.u-hidden { display: none !important; }
+@media screen and (min-width: 1126px) { /* pc */
+  .u-hidden-pc {
+    display: none !important;
+  }
+
+}
+
+@media screen and (min-width: 796px) and (max-width: 1125px) { /* pc用スタイル */
+  .u-hidden-pc {
+    display: none !important;
+  }
+  .u-hidden-tb {
+    display: none !important;
+  }
+
+}
+@media screen and (max-width: 795px) {/* sp用スタイル */
+  .u-hidden-sp {
+    display: none !important;
+  }
+}
+
+@media screen and (min-width: 375px) and (max-width: 400px) {/* sp用スタイル */
+  .u-hidden-sp {
+    display: none !important;
+  }
+}
+
+

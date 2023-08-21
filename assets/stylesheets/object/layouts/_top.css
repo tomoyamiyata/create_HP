@@ -1,0 +1,32 @@
+@media screen and (min-width: 1126px) {
+  /* pc用スタイル */
+  .l-top {
+    padding: 80px 0px 60px 0px;
+    position: relative;
+    z-index: 20;
+  }
+}
+
+@media screen and (min-width: 796px) and (max-width: 1125px) {
+  /* pc用スタイル */
+  .l-top {
+    padding: 80px 0px 60px 0px;
+    position: relative;
+    z-index: 20;
+  }
+}
+
+
+@media screen and (max-width: 795px) {
+  /* sp用スタイル */
+  .l-top {
+    padding: 80px 0px 20px 0px;
+  }
+}
+
+@media screen and (min-width: 375px) and (max-width: 400px) {
+  /* sp用スタイル */
+  .l-top {
+    padding: 80px 0px 20px 0px;
+  }
+}

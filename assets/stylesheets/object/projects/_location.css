@@ -1,0 +1,147 @@
+.p-location__article--number {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.p-location__article--number::after {
+  border-top: 1px solid;
+  content: "";
+  width: 3em;
+  margin: 0 0.5em 0 0.5em;
+}
+
+.p_location__address {
+  text-align: center;
+  margin-bottom: 70px;
+  position: relative;
+}
+
+.p-location__map {
+  display: block;
+  margin: 0 auto;
+}
+
+@media screen and (min-width: 1126px) {
+  /* pc用スタイル */
+
+  .p-location__article {
+    color: #00CC33;
+    display: flex;
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .p-location__background {
+    position: absolute;
+    display: block;
+    white-space: nowrap;
+    font-size: 140px;
+    font-weight: bold;
+    color: #EEEEEE;
+    top: 28%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: -1;
+    opacity: 0.7;
+  }
+}
+
+@media screen and (min-width: 796px) and (max-width: 1125px) {
+  /* pc用スタイル */
+
+  .p-location__article {
+    color: #00CC33;
+    display: flex;
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .p-location__background {
+    position: absolute;
+    display: block;
+    white-space: nowrap;
+    font-size: 140px;
+    font-weight: bold;
+    color: #EEEEEE;
+    top: 28%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: -1;
+    opacity: 0.7;
+  }
+}
+
+@media screen and (max-width: 795px) {
+  /* sp用スタイル */
+
+  .p-location__article {
+    color: #00CC33;
+    display: flex;
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 0.8rem;
+  }
+
+  .p-location__background {
+    position: absolute;
+    display: block;
+    white-space: nowrap;
+    font-size: 16vw;
+    font-weight: bold;
+    color: #EEEEEE;
+    top: 28%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: -1;
+    opacity: 0.7;
+  }
+
+  .p-location__map {
+    display: block;
+    margin: 0 auto;
+    width: 80vw;
+    height: 300px;
+  }
+}
+
+@media screen and (min-width: 375px) and (max-width: 400px) {
+  /* sp用スタイル */
+
+  .p-location__article {
+    color: #00CC33;
+    display: flex;
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 0.8rem;
+  }
+
+  .p-location__background {
+    position: absolute;
+    display: block;
+    white-space: nowrap;
+    font-size: 16vw;
+    font-weight: bold;
+    color: #EEEEEE;
+    top: 28%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: -1;
+    opacity: 0.7;
+  }
+
+  .p-location__map {
+    display: block;
+    margin: 0 auto;
+    width: 80vw;
+    height: 300px;
+  }
+}

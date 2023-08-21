@@ -1,0 +1,838 @@
+@media screen and (min-width: 1126px) {
+  /* pc用スタイル */
+
+  .p-contact__article {
+    color: #00CC33;
+    display: flex;
+    position: absolute;
+    top: 12%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .p-contact__article--number {
+    display: flex;
+    align-items: center;
+  }
+
+  .p-contact__article--number::after {
+    border-top: 1px solid;
+    content: "";
+    width: 3em;
+    margin: 0 0.5em 0 0.5em;
+  }
+
+  .p-contact__title {
+    text-align: center;
+    position: relative;
+    font-size: 27px;
+  }
+
+  .p-contact__background {
+    position: absolute;
+    display: block;
+    white-space: nowrap;
+    font-size: 130px;
+    font-weight: bold;
+    color: #DDDDDD;
+    top: 18%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: -1;
+    opacity: .6;
+  }
+
+  .p-contact__form {
+    margin-top: 20%;
+    margin-left: 20%;
+    position: relative;
+  }
+
+  #select {
+    width: 260px;
+    height: 50px;
+    margin-top: 10px;
+    max-width: 300px;
+  }
+
+  .p-contact__form__name {
+    margin-top: 15px;
+  }
+
+  .p-contact__form__name__box {
+    display: flex;
+    margin-top: 15px;
+  }
+
+  #name {
+    width: 90%;
+    height: 50px;
+    margin: 10px 0px 5px 0px;
+    outline: solid 2px red;
+    max-width: 550px;
+  }
+
+  .p-content__form__name__box__item {
+    padding: 0px 10px;
+    background-color: #DD0000;
+    color: #FFFFFF;
+    font-size: 12px;
+    margin-left: 5px;
+  }
+
+  .p-contact__form__name__text {
+    font-size: 6px;
+    color: #DD0000;
+  }
+
+  .p-contact__form__company {
+    margin-top: 15px;
+  }
+
+  .p-contact__form__company__box {
+    display: flex;
+  }
+
+  #company {
+    width: 90%;
+    height: 50px;
+    margin: 10px 0px 5px 0px;
+    outline: solid 2px red;
+    max-width: 550px;
+  }
+
+  .p-content__form__company__box__item {
+    padding: 0px 10px;
+    background-color: #DD0000;
+    color: #FFFFFF;
+    font-size: 12px;
+    margin-left: 5px;
+  }
+
+  .p-contact__form__company__text {
+    font-size: 6px;
+    color: #DD0000;
+  }
+
+  .p-contact__form__company_url {
+    margin-top: 15px;
+  }
+
+  #company_url {
+    width: 90%;
+    height: 50px;
+    margin-top: 10px;
+    max-width: 550px;
+  }
+
+  .p-contact__form__mail {
+    margin-top: 10px;
+  }
+
+  .p-contact__form__mail__box {
+    display: flex;
+    margin-top: 15px;
+  }
+
+  #mail {
+    width: 90%;
+    height: 50px;
+    margin: 10px 0px 5px 0px;
+    outline: solid 2px red;
+    max-width: 550px;
+  }
+
+  .p-content__form__mail__box__item {
+    padding: 0px 10px;
+    background-color: #DD0000;
+    color: #FFFFFF;
+    font-size: 12px;
+    margin-left: 5px;
+  }
+
+  .p-contact__form__mail__text {
+    font-size: 6px;
+    color: #DD0000;
+  }
+
+  .p-contact__form__phone_number {
+    margin-top: 15px;
+  }
+
+  #phone_number {
+    width: 90%;
+    height: 50px;
+    margin-top: 10px;
+    max-width: 550px;
+  }
+
+  .p-contact__form__content {
+    margin-top: 15px;
+  }
+
+  #content {
+    width: 100%;
+    height: 100px;
+    margin-top: 10px;
+    max-width: 700px;
+  }
+
+  .p-contact__form__trigger {
+    margin-top: 15px;
+  }
+
+  #trigger {
+    width: 260px;
+    height: 50px;
+    margin-top: 10px;
+    max-width: 300px;
+  }
+
+  .p-contact__button {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 112%;
+    left: 40%;
+    padding: 15px 100px;
+    background-color: #DD0000;
+    color: #FFFFFF;
+    border: none;
+    margin: 0 auto;
+    display: block;
+  }
+
+  .p-contact__button:hover {
+    opacity: 0.6;
+  }
+}
+
+@media screen and (min-width: 796px) and (max-width: 1125px) {
+  /* pc用スタイル */
+
+  .p-contact__article {
+    color: #00CC33;
+    display: flex;
+    position: absolute;
+    top: 11%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .p-contact__article--number {
+    display: flex;
+    align-items: center;
+  }
+
+  .p-contact__article--number::after {
+    border-top: 1px solid;
+    content: "";
+    width: 3em;
+    margin: 0 0.5em 0 0.5em;
+  }
+
+  .p-contact__title {
+    text-align: center;
+    position: relative;
+    font-size: 27px;
+  }
+
+  .p-contact__background {
+    position: absolute;
+    display: block;
+    white-space: nowrap;
+    font-size: 130px;
+    font-weight: bold;
+    color: #DDDDDD;
+    top: 16%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: -1;
+    opacity: .6;
+  }
+
+  .p-contact__form {
+    margin-top: 20%;
+    margin-left: 20%;
+    position: relative;
+  }
+
+  #select {
+    width: 260px;
+    max-width: 300px;
+    height: 50px;
+    margin-top: 10px;
+  }
+
+  .p-contact__form__name {
+    margin-top: 15px;
+  }
+
+  .p-contact__form__name__box {
+    display: flex;
+    margin-top: 15px;
+  }
+
+  #name {
+    width: 90%;
+    max-width: 550px;
+    height: 50px;
+    margin: 10px 0px 5px 0px;
+    outline: solid 2px red;
+  }
+
+  .p-content__form__name__box__item {
+    padding: 0px 10px;
+    background-color: #DD0000;
+    color: #FFFFFF;
+    font-size: 12px;
+    margin-left: 5px;
+  }
+
+  .p-contact__form__name__text {
+    font-size: 6px;
+    color: #DD0000;
+  }
+
+  .p-contact__form__company {
+    margin-top: 15px;
+  }
+
+  .p-contact__form__company__box {
+    display: flex;
+  }
+
+  #company {
+    width: 90%;
+    max-width: 550px;
+    height: 50px;
+    margin: 10px 0px 5px 0px;
+    outline: solid 2px red;
+  }
+
+  .p-content__form__company__box__item {
+    padding: 0px 10px;
+    background-color: #DD0000;
+    color: #FFFFFF;
+    font-size: 12px;
+    margin-left: 5px;
+  }
+
+  .p-contact__form__company__text {
+    font-size: 6px;
+    color: #DD0000;
+  }
+
+  .p-contact__form__company_url {
+    margin-top: 15px;
+  }
+
+  #company_url {
+    width: 90%;
+    max-width: 550px;
+    height: 50px;
+    margin-top: 10px;
+  }
+
+  .p-contact__form__mail {
+    margin-top: 10px;
+  }
+
+  .p-contact__form__mail__box {
+    display: flex;
+    margin-top: 15px;
+  }
+
+  #mail {
+    width: 90%;
+    max-width: 550px;
+    height: 50px;
+    margin: 10px 0px 5px 0px;
+    outline: solid 2px red;
+  }
+
+  .p-content__form__mail__box__item {
+    padding: 0px 10px;
+    background-color: #DD0000;
+    color: #FFFFFF;
+    font-size: 12px;
+    margin-left: 5px;
+  }
+
+  .p-contact__form__mail__text {
+    font-size: 6px;
+    color: #DD0000;
+  }
+
+  .p-contact__form__phone_number {
+    margin-top: 15px;
+  }
+
+  #phone_number {
+    width: 90%;
+    height: 50px;
+    max-width: 550px;
+    margin-top: 10px;
+  }
+
+  .p-contact__form__content {
+    margin-top: 15px;
+  }
+
+  #content {
+    width: 100%;
+    max-width: 600px;
+    height: 100px;
+    margin-top: 10px;
+    resize: vertical;
+    max-height: 300px;
+    min-height: 50px;
+  }
+
+  .p-contact__form__trigger {
+    margin-top: 15px;
+  }
+
+  #trigger {
+    width: 260px;
+    max-width: 300px;
+    height: 50px;
+    margin-top: 10px;
+  }
+
+  .p-contact__button {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 110%;
+    left: 40%;
+    padding: 15px 100px;
+    background-color: #DD0000;
+    color: #FFFFFF;
+    border: none;
+    margin: 0 auto;
+    display: block;
+  }
+
+  .p-contact__button:hover {
+    opacity: 0.6;
+  }
+}
+
+@media screen and (max-width: 795px) {
+  /* sp用スタイル */
+
+  .p-contact__article {
+    color: #00CC33;
+    display: flex;
+    position: absolute;
+    top: 11%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 0.8rem;
+  }
+
+  .p-contact__article--number {
+    display: flex;
+    align-items: center;
+  }
+
+  .p-contact__article--number::after {
+    border-top: 1px solid;
+    content: "";
+    width: 3em;
+    margin: 0 0.5em 0 0.5em;
+  }
+
+  .p-contact__title {
+    text-align: center;
+    position: relative;
+    font-size: 27px;
+  }
+
+  .p-contact__background {
+    position: absolute;
+    display: block;
+    white-space: nowrap;
+    font-size: 14vw;
+    font-weight: bold;
+    color: #DDDDDD;
+    top: 16%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: -1;
+    opacity: .6;
+  }
+
+  .p-contact__form {
+    padding: 15% 10% 20% 10%;
+    position: relative;
+  }
+
+  #select {
+    width: 65%;
+    max-width: 260px;
+    height: 5vh;
+    margin-top: 10px;
+  }
+
+  .p-contact__form__name {
+    margin-top: 15px;
+  }
+
+  .p-contact__form__name__box {
+    display: flex;
+    margin-top: 15px;
+  }
+
+  #name {
+    width: 90%;
+    max-width: 550px;
+    height: 5vh;
+    margin: 10px 0px 5px 0px;
+    outline: solid 2px red;
+  }
+
+  .p-content__form__name__box__item {
+    padding: 0px 10px;
+    background-color: #DD0000;
+    color: #FFFFFF;
+    font-size: 12px;
+    margin-left: 5px;
+  }
+
+  .p-contact__form__name__text {
+    font-size: 6px;
+    color: #DD0000;
+  }
+
+  .p-contact__form__company {
+    margin-top: 15px;
+  }
+
+  .p-contact__form__company__box {
+    display: flex;
+  }
+
+  #company {
+    width: 90%;
+    max-width: 550px;
+    height: 5vh;
+    margin: 10px 0px 5px 0px;
+    outline: solid 2px red;
+  }
+
+  .p-content__form__company__box__item {
+    padding: 0px 10px;
+    background-color: #DD0000;
+    color: #FFFFFF;
+    font-size: 12px;
+    margin-left: 5px;
+  }
+
+  .p-contact__form__company__text {
+    font-size: 6px;
+    color: #DD0000;
+  }
+
+  .p-contact__form__company_url {
+    margin-top: 15px;
+  }
+
+  #company_url {
+    width: 90%;
+    max-width: 550px;
+    height: 5vh;
+    margin-top: 10px;
+  }
+
+  .p-contact__form__mail {
+    margin-top: 10px;
+  }
+
+  .p-contact__form__mail__box {
+    display: flex;
+    margin-top: 15px;
+  }
+
+  #mail {
+    width: 90%;
+    max-width: 550px;
+    height: 5vh;
+    margin: 10px 0px 5px 0px;
+    outline: solid 2px red;
+  }
+
+
+  .p-content__form__mail__box__item {
+    padding: 0px 10px;
+    background-color: #DD0000;
+    color: #FFFFFF;
+    font-size: 12px;
+    margin-left: 5px;
+  }
+
+  .p-contact__form__mail__text {
+    font-size: 6px;
+    color: #DD0000;
+  }
+
+  .p-contact__form__phone_number {
+    margin-top: 15px;
+  }
+
+  #phone_number {
+    width: 90%;
+    height: 5vh;
+    max-width: 550px;
+    margin-top: 10px;
+  }
+
+  .p-contact__form__content {
+    margin-top: 15px;
+  }
+
+  #content {
+    width: 80vw;
+    height: 5vh;
+    overflow: auto;
+    padding: 10px;
+    resize: vertical;
+    max-height: 100px;
+    min-height: 5vh;
+  }
+
+  .p-contact__form__trigger {
+    margin-top: 15px;
+  }
+
+  #trigger {
+    width: 260px;
+    max-width: 300px;
+    height: 5vh;
+    margin-top: 10px;
+  }
+
+  .p-contact__button {
+    padding: 20px;
+    background-color: #DD0000;
+    color: #FFFFFF;
+    font-size: 1.5rem;
+    border: none;
+    margin: 0 auto;
+    display: block;
+    width: 80vw;
+    margin-top: 20%;
+  }
+
+  .p-contact__button:hover {
+    opacity: 0.6;
+  }
+}
+
+@media screen and (min-width: 375px) and (max-width: 400px) {
+  /* sp用スタイル */
+
+  .p-contact__article {
+    color: #00CC33;
+    display: flex;
+    position: absolute;
+    top: 11%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .p-contact__article--number {
+    display: flex;
+    align-items: center;
+  }
+
+  .p-contact__article--number::after {
+    border-top: 1px solid;
+    content: "";
+    width: 3em;
+    margin: 0 0.5em 0 0.5em;
+  }
+
+  .p-contact__title {
+    text-align: center;
+    position: relative;
+    font-size: 27px;
+  }
+
+  .p-contact__background {
+    position: absolute;
+    display: block;
+    white-space: nowrap;
+    font-size: 14vw;
+    font-weight: bold;
+    color: #DDDDDD;
+    top: 16%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: -1;
+    opacity: .6;
+  }
+
+  .p-contact__form {
+    padding: 15% 10% 20% 10%;
+    position: relative;
+  }
+
+  #select {
+    width: 65%;
+    max-width: 260px;
+    height: 5vh;
+    margin-top: 10px;
+  }
+
+  .p-contact__form__name {
+    margin-top: 15px;
+  }
+
+  .p-contact__form__name__box {
+    display: flex;
+    margin-top: 15px;
+  }
+
+  #name {
+    width: 90%;
+    max-width: 550px;
+    height: 5vh;
+    margin: 10px 0px 5px 0px;
+    outline: solid 2px red;
+  }
+
+  .p-content__form__name__box__item {
+    padding: 0px 10px;
+    background-color: #DD0000;
+    color: #FFFFFF;
+    font-size: 12px;
+    margin-left: 5px;
+  }
+
+  .p-contact__form__name__text {
+    font-size: 6px;
+    color: #DD0000;
+  }
+
+  .p-contact__form__company {
+    margin-top: 15px;
+  }
+
+  .p-contact__form__company__box {
+    display: flex;
+  }
+
+  #company {
+    width: 90%;
+    max-width: 550px;
+    height: 5vh;
+    margin: 10px 0px 5px 0px;
+    outline: solid 2px red;
+  }
+
+  .p-content__form__company__box__item {
+    padding: 0px 10px;
+    background-color: #DD0000;
+    color: #FFFFFF;
+    font-size: 12px;
+    margin-left: 5px;
+  }
+
+  .p-contact__form__company__text {
+    font-size: 6px;
+    color: #DD0000;
+  }
+
+  .p-contact__form__company_url {
+    margin-top: 15px;
+  }
+
+  #company_url {
+    width: 90%;
+    max-width: 550px;
+    height: 5vh;
+    margin-top: 10px;
+  }
+
+  .p-contact__form__mail {
+    margin-top: 10px;
+  }
+
+  .p-contact__form__mail__box {
+    display: flex;
+    margin-top: 15px;
+  }
+
+  #mail {
+    width: 90%;
+    max-width: 550px;
+    height: 5vh;
+    margin: 10px 0px 5px 0px;
+    outline: solid 2px red;
+  }
+
+  .p-content__form__mail__box__item {
+    padding: 0px 10px;
+    background-color: #DD0000;
+    color: #FFFFFF;
+    font-size: 12px;
+    margin-left: 5px;
+  }
+
+  .p-contact__form__mail__text {
+    font-size: 6px;
+    color: #DD0000;
+  }
+
+  .p-contact__form__phone_number {
+    margin-top: 15px;
+  }
+
+  #phone_number {
+    width: 90%;
+    height: 5vh;
+    max-width: 550px;
+    margin-top: 10px;
+  }
+
+  .p-contact__form__content {
+    margin-top: 15px;
+  }
+
+  #content {
+    width: 80vw;
+    height: 5vh;
+    overflow: auto;
+    padding: 10px;
+    resize: vertical;
+    max-height: 100px;
+    min-height: 5vh;
+  }
+
+  .p-contact__form__trigger {
+    margin-top: 15px;
+  }
+
+  #trigger {
+    width: 260px;
+    max-width: 300px;
+    height: 5vh;
+    margin-top: 10px;
+  }
+
+  .p-contact__button {
+    padding: 20px;
+    background-color: #DD0000;
+    color: #FFFFFF;
+    font-size: 1.5rem;
+    border: none;
+    margin: 0 auto;
+    display: block;
+    width: 80vw;
+    margin-top: 20%;
+  }
+
+  .p-contact__button:hover {
+    opacity: 0.6;
+  }
+}

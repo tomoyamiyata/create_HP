@@ -1,0 +1,119 @@
+/* 背景の4本線 */
+
+@media screen and (min-width: 1126px) {
+  /* pc用スタイル */
+  .p-wrapper {
+    position: relative;
+    z-index: 10;
+    pointer-events: none;
+    opacity: 0.9;
+    padding: 0 5%;
+  }
+
+  .grid {
+    display: flex;
+    height: 100%;
+    position: absolute;
+    width: 100%;
+    z-index: 10;
+    pointer-events: none;
+    opacity: 0.9;
+  }
+
+  .grid span:nth-of-type(1) {
+    border-left: 1px solid #DDDDDD;
+    position: absolute;
+    height: 100%;
+    left: 3%;
+    z-index: 10;
+    pointer-events: none;
+    opacity: 0.9;
+  }
+
+  .grid span:nth-of-type(2) {
+    border-left: 1px solid #DDDDDD;
+    position: absolute;
+    height: 100%;
+    left: 34%;
+    z-index: 10;
+    pointer-events: none;
+    opacity: 0.9;
+  }
+
+  .grid span:nth-of-type(3) {
+    border-left: 1px solid #DDDDDD;
+    position: absolute;
+    height: 100%;
+    left: 67%;
+    z-index: 10;
+    pointer-events: none;
+    opacity: 0.9;
+  }
+
+  .grid span:nth-of-type(4) {
+    border-left: 1px solid #DDDDDD;
+    position: absolute;
+    height: 100%;
+    right: 3%;
+    z-index: 10;
+    pointer-events: none;
+    opacity: 0.9;
+  }
+}
+
+@media screen and (min-width: 796px) and (max-width: 1125px) {
+  /* pc用スタイル */
+
+  .p-wrapper {
+    position: relative;
+    z-index: 10;
+  }
+
+  .grid {
+    display: flex;
+    height: 100%;
+    position: absolute;
+    width: 100%;
+    z-index: 10;
+  }
+
+  .grid span:nth-of-type(1) {
+    border-left: 1px solid #DDDDDD;
+    position: absolute;
+    height: 100%;
+    left: 5%;
+    z-index: 10;
+  }
+
+  .grid span:nth-of-type(2) {
+    border-left: 1px solid #DDDDDD;
+    position: absolute;
+    height: 100%;
+    left: 35%;
+    z-index: 10;
+  }
+
+  .grid span:nth-of-type(3) {
+    border-left: 1px solid #DDDDDD;
+    position: absolute;
+    height: 100%;
+    left: 65%;
+    z-index: 10;
+  }
+
+  .grid span:nth-of-type(4) {
+    border-left: 1px solid #DDDDDD;
+    position: absolute;
+    height: 100%;
+    left: 95%;
+    z-index: 10;
+  }
+}
+
+@media screen and (max-width: 795px) {
+  /* sp用スタイル */
+}
+
+@media screen and (min-width: 375px) and (max-width: 400px) {
+  /* sp用スタイル */
+}

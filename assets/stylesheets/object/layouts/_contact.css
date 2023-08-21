@@ -1,0 +1,39 @@
+@media screen and (min-width: 1126px) {
+  /* pc用スタイル */
+
+  .l-contact {
+    position: relative;
+    padding-top: 180px;
+    z-index: 10;
+    pointer-events: auto;
+  }
+}
+
+@media screen and (min-width: 796px) and (max-width: 1125px) {
+  /* pc用スタイル */
+
+  .l-contact {
+    position: relative;
+    padding-top: 180px;
+    padding-bottom: 20%;
+    z-index: 10;
+  }
+}
+
+@media screen and (max-width: 795px) {
+  /* sp用スタイル */
+
+  .l-contact {
+    position: relative;
+    padding-top: 180px;
+  }
+}
+
+@media screen and (min-width: 375px) and (max-width: 400px) {
+  /* sp用スタイル */
+
+  .l-contact {
+    position: relative;
+    padding-top: 180px;
+  }
+}
